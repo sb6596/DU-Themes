@@ -51,6 +51,13 @@
         android:entries="@array/statusbar_icons_titles"
         android:entryValues="@array/statusbar_icons_values" />
 
+    <com.dirtyunicorns.themes.preference.SystemSettingIntListPreference
+        android:key="theming_settings_dashboard_icons"
+        android:title="@string/theming_settings_dashboard_icons_title"
+        android:entries="@array/theming_settings_dashboard_icons_entries"
+        android:entryValues="@array/theming_settings_dashboard_icons_values"
+        android:defaultValue="0" />
+
     <Preference
         android:key="clock_style"
         android:title="@string/clock_style_title"
