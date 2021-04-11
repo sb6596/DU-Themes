@@ -169,5 +169,7 @@
     <!-- Clock style -->
     <string name="clock_style_title">Clock style</string>
     <string name="clock_style_summary">Customize lockscreen clock</string>
+    <string name="clock_show_status_area">Clock status area</string>
+    <string name="clock_show_status_area_summary">Show the extra row of info under the lock clock(SysUI restart may be required)</string>
 
 </resources>
