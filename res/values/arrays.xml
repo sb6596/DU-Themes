@@ -30,6 +30,21 @@
         <item>@string/font_type_11</item>
         <item>@string/font_type_12</item>
         <item>@string/font_type_13</item>
+        <item>@string/font_type_14</item>
+        <item>@string/font_type_15</item>
+        <item>@string/font_type_16</item>
+        <item>@string/font_type_17</item>
+        <item>@string/font_type_18</item>
+        <item>@string/font_type_19</item>
+        <item>@string/font_type_20</item>
+        <item>@string/font_type_21</item>
+        <item>@string/font_type_22</item>
+        <item>@string/font_type_23</item>
+        <item>@string/font_type_24</item>
+        <item>@string/font_type_25</item>
+        <item>@string/font_type_26</item>
+        <item>@string/font_type_27</item>
+        <item>@string/font_type_28</item>
     </string-array>
 
     <string-array name="font_type_values">
@@ -46,6 +61,21 @@
         <item>11</item>
         <item>12</item>
         <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
     </string-array>
 
     <!-- Adaptive icon shapes -->

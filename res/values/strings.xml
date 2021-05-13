@@ -43,18 +43,33 @@
     <string name="font_type_title">Font type</string>
     <string name="font_type_summary">Select font type</string>
     <string name="font_type_default">Default</string>
-    <string name="font_type_2" translatable="false">Noto Serif / Source Sans Pro</string>
-    <string name="font_type_3" translatable="false">Cagliostro</string>
-    <string name="font_type_4" translatable="false">LG Smart Gothic</string>
-    <string name="font_type_5" translatable="false">Rosemary</string>
-    <string name="font_type_6" translatable="false">Sony Sketch</string>
-    <string name="font_type_7" translatable="false">Google Sans</string>
-    <string name="font_type_8" translatable="false">OnePlus Slate</string>
-    <string name="font_type_9" translatable="false">Samsung One</string>
-    <string name="font_type_10" translatable="false">Fira Sans</string>
-    <string name="font_type_11" translatable="false">Ubuntu</string>
-    <string name="font_type_12" translatable="false">Titillium Web</string>
-    <string name="font_type_13" translatable="false">Caviar Dreams</string>
+    <string name="font_type_2" translatable="false">Aclonica</string>
+    <string name="font_type_3" translatable="false">Adam CG / Ginora Sans</string>
+    <string name="font_type_4" translatable="false">Alte DIN 1451 Mittelschrift</string>
+    <string name="font_type_5" translatable="false">Amarante</string>
+    <string name="font_type_6" translatable="false">Arbutus Slab / Source Sans Pro</string>
+    <string name="font_type_7" translatable="false">Arvo / Lato</string>
+    <string name="font_type_8" translatable="false">Big Noodle Thing</string>
+    <string name="font_type_9" translatable="false">Biko / Hanken</string>
+    <string name="font_type_10" translatable="false">Cagliostro</string>
+    <string name="font_type_11" translatable="false">Comfortaa</string>
+    <string name="font_type_12" translatable="false">Comic Sans</string>
+    <string name="font_type_13" translatable="false">Coolstory</string>
+    <string name="font_type_14" translatable="false">Fira Sans</string>
+    <string name="font_type_15" translatable="false">Google Sans</string>
+    <string name="font_type_16" translatable="false">LG Smart Gothic</string>
+    <string name="font_type_17" translatable="false">Noto Serif / Source Sans Pro</string>
+    <string name="font_type_18" translatable="false">OnePlus Slate</string>
+    <string name="font_type_19" translatable="false">Pixel Font</string>
+    <string name="font_type_20" translatable="false">Reem Kufi</string>
+    <string name="font_type_21" translatable="false">Roboto</string>
+    <string name="font_type_22" translatable="false">Rosemary</string>
+    <string name="font_type_23" translatable="false">Rubik</string>
+    <string name="font_type_24" translatable="false">Samsung One</string>
+    <string name="font_type_25" translatable="false">Sony Sketch</string>
+    <string name="font_type_26" translatable="false">Surfer</string>
+    <string name="font_type_27" translatable="false">Titillium Web</string>
+    <string name="font_type_28" translatable="false">Ubuntu</string>
 
     <!-- Adaptive icon shapes -->
     <string name="adaptive_icon_shape_default">Default</string>
