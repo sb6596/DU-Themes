@@ -31,7 +31,7 @@ import android.widget.Button;
 
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.util.du.ThemesUtils;
+import com.android.internal.util.aospextended.ThemesUtils;
 
 public class AccentPicker extends DialogFragment {
 

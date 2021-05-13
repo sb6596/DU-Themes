@@ -81,9 +81,10 @@
     <!-- Themes -->
     <string-array name="theme_type_titles">
         <item>@string/theme_type_light</item>
-        <item>@string/theme_type_google_dark</item>
-        <item>@string/theme_type_pitch_black</item>
-        <item>@string/theme_type_solarized_dark</item>
+        <item>@string/theme_type_dark</item>
+        <item>@string/theme_type_black</item>
+        <item>@string/theme_type_extended</item>
+        <item>@string/theme_type_elegant</item>
     </string-array>
 
     <string-array name="theme_type_values">
@@ -91,6 +92,7 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
     </string-array>
 
     <!-- Themes schedule -->
@@ -106,9 +108,10 @@
 
     <string-array name="theme_scheduled_titles">
         <item>@string/theme_type_light</item>
-        <item>@string/theme_type_google_dark</item>
-        <item>@string/theme_type_pitch_black</item>
-        <item>@string/theme_type_solarized_dark</item>
+        <item>@string/theme_type_dark</item>
+        <item>@string/theme_type_black</item>
+        <item>@string/theme_type_extended</item>
+        <item>@string/theme_type_elegant</item>
     </string-array>
 
     <string-array name="theme_scheduled_values">
@@ -116,6 +119,7 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
     </string-array>
 
     <!-- Accent name -->
@@ -133,6 +137,8 @@
         <item>@string/accent_colors_cyan</item>
         <item>@string/accent_colors_deeporange</item>
         <item>@string/accent_colors_deeppurple</item>
+        <item>@string/accent_colors_elegant</item>
+        <item>@string/accent_colors_extended</item>
         <item>@string/accent_colors_grey</item>
         <item>@string/accent_colors_indigo</item>
         <item>@string/accent_colors_lightblue</item>
@@ -160,6 +166,8 @@
         <item>cyanAccent</item>
         <item>deepOrangeAccent</item>
         <item>deepPurpleAccent</item>
+        <item>elegantAccent</item>
+        <item>extendedAccent</item>
         <item>greyAccent</item>
         <item>indigoAccent</item>
         <item>lightBlueAccent</item>

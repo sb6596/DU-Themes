@@ -104,6 +104,30 @@
         android:backgroundTint="#FF7C4DFF" />
 
     <Button
+        android:id="@+id/elegantAccent"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/accent_picker_circle"
+        android:backgroundTint="#FF47AE84" />
+
+    <Button
+        android:id="@+id/extendedAccent"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/accent_picker_circle"
+        android:backgroundTint="#FF21EF8B" />
+
+    <Button
         android:id="@+id/greyAccent"
         android:layout_width="60dp"
         android:layout_height="60dp"

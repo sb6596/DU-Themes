@@ -86,6 +86,8 @@
     <string name="accent_colors_cyan">Cyan</string>
     <string name="accent_colors_deeporange">Deep Orange</string>
     <string name="accent_colors_deeppurple">Deep Purple</string>
+    <string name="accent_colors_elegant">Elegant</string>
+    <string name="accent_colors_extended">Extended</string>
     <string name="accent_colors_grey">Grey</string>
     <string name="accent_colors_indigo">Indigo</string>
     <string name="accent_colors_lightblue">Light Blue</string>
@@ -101,9 +103,10 @@
     <string name="theme_type_title">System theme</string>
     <string name="theme_type_summary">Select theme</string>
     <string name="theme_type_light">Light</string>
-    <string name="theme_type_google_dark">Google dark</string>
-    <string name="theme_type_pitch_black">Pitch black</string>
-    <string name="theme_type_solarized_dark">Solarized dark</string>
+    <string name="theme_type_dark">Dark</string>
+    <string name="theme_type_black">Black</string>
+    <string name="theme_type_extended">Extended</string>
+    <string name="theme_type_elegant">Elegant</string>
     <string name="theme_other_category_title">Other</string>
     <string name="theme_backup_title">Backup theme</string>
     <string name="theme_backup_summary">Backup your current theme configuration</string>

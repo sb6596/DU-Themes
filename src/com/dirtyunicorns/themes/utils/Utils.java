@@ -48,7 +48,7 @@ import android.widget.Button;
 
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.util.du.ThemesUtils;
+import com.android.internal.util.aospextended.ThemesUtils;
 
 import com.dirtyunicorns.themes.R;
 import com.dirtyunicorns.themes.receivers.ThemesEndReceiver;
@@ -95,13 +95,16 @@ public class Utils {
                     scheduledStartThemeSummary = context.getString(R.string.theme_type_light);
                     break;
                 case "2":
-                    scheduledStartThemeSummary = context.getString(R.string.theme_type_google_dark);
+                    scheduledStartThemeSummary = context.getString(R.string.theme_type_dark);
                     break;
                 case "3":
-                    scheduledStartThemeSummary = context.getString(R.string.theme_type_pitch_black);
+                    scheduledStartThemeSummary = context.getString(R.string.theme_type_black);
                     break;
                 case "4":
-                    scheduledStartThemeSummary = context.getString(R.string.theme_type_solarized_dark);
+                    scheduledStartThemeSummary = context.getString(R.string.theme_type_extended);
+                    break;
+                case "5":
+                    scheduledStartThemeSummary = context.getString(R.string.theme_type_elegant);
                     break;
             }
         }
@@ -128,13 +131,16 @@ public class Utils {
                     scheduledEndThemeSummary = context.getString(R.string.theme_type_light);
                     break;
                 case "2":
-                    scheduledEndThemeSummary = context.getString(R.string.theme_type_google_dark);
+                    scheduledEndThemeSummary = context.getString(R.string.theme_type_dark);
                     break;
                 case "3":
-                    scheduledEndThemeSummary = context.getString(R.string.theme_type_pitch_black);
+                    scheduledEndThemeSummary = context.getString(R.string.theme_type_black);
                     break;
                 case "4":
-                    scheduledEndThemeSummary = context.getString(R.string.theme_type_solarized_dark);
+                    scheduledEndThemeSummary = context.getString(R.string.theme_type_extended);
+                    break;
+                case "5":
+                    scheduledEndThemeSummary = context.getString(R.string.theme_type_elegant);
                     break;
             }
         }
@@ -165,7 +171,7 @@ public class Utils {
     }
 
     public static void setForegroundDrawable(String packagename, Button buttonAccent, Activity activity) {
-        if (com.android.internal.util.du.Utils.isThemeEnabled(packagename)) {
+        if (com.android.internal.util.aospextended.AEXUtils.isOverlayEnabled(packagename)) {
             buttonAccent.setForeground(activity.getResources().getDrawable(
                     R.drawable.accent_picker_checkmark, null));
         } else {
@@ -261,7 +267,7 @@ public class Utils {
         //boolean navigationBar = Settings.System.getInt(context.getContentResolver(),
         //        Settings.System.FORCE_SHOW_NAVBAR, defaultToNavigationBar ? 1 : 0) == 1;
         boolean hasNavbar = false;
-        hasNavbar = com.android.internal.util.du.Utils.isThemeEnabled(
+        hasNavbar = com.android.internal.util.aospextended.AEXUtils.isOverlayEnabled(
                 "com.android.internal.systemui.navbar.threebutton"); //&& navigationBar;
         return hasNavbar;
     }
