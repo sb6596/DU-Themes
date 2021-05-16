@@ -264,11 +264,11 @@ public class Utils {
     public static boolean threeButtonNavbarEnabled(Context context) {
         boolean defaultToNavigationBar = context.getResources().getBoolean(
                 com.android.internal.R.bool.config_showNavigationBar);
-        //boolean navigationBar = Settings.System.getInt(context.getContentResolver(),
-        //        Settings.System.FORCE_SHOW_NAVBAR, defaultToNavigationBar ? 1 : 0) == 1;
+        boolean navigationBar = Settings.System.getInt(context.getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, defaultToNavigationBar ? 1 : 0) == 1;
         boolean hasNavbar = false;
         hasNavbar = com.android.internal.util.aospextended.AEXUtils.isOverlayEnabled(
-                "com.android.internal.systemui.navbar.threebutton"); //&& navigationBar;
+                "com.android.internal.systemui.navbar.threebutton") && navigationBar;
         return hasNavbar;
     }
 }
